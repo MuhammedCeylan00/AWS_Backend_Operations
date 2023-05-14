@@ -3,10 +3,10 @@ import fs from "fs"
 import { S3Client, PutObjectCommand } from '@aws-sdk/client-s3';
 
 
-const region = "eu-north-1"
-const bucketName="amazon-image-upload-bucket"
-const accessKeyId="AKIA2DAFBYFTGGY6AG3B"
-const secretKeyId="Vu054nHxgyT0IE5OCWqutWP/2CTSzWzIbu4NTyAd"
+const region = ""
+const bucketName=""
+const accessKeyId=""
+const secretKeyId=""
 
 const s3 = new S3({
     region,
